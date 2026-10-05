@@ -1,0 +1,802 @@
+[
+  {
+    "day": 1,
+    "title": "Expressions and the feedback loop",
+    "phase": "Language foundations",
+    "path": "days/day-001-expressions-and-the-feedback-loop",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 2,
+    "title": "Numbers and monetary precision",
+    "phase": "Language foundations",
+    "path": "days/day-002-numbers-and-monetary-precision",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 3,
+    "title": "Strings and Unicode",
+    "phase": "Language foundations",
+    "path": "days/day-003-strings-and-unicode",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 4,
+    "title": "Boolean logic and decisions",
+    "phase": "Language foundations",
+    "path": "days/day-004-boolean-logic-and-decisions",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 5,
+    "title": "Loops and invariants",
+    "phase": "Language foundations",
+    "path": "days/day-005-loops-and-invariants",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 6,
+    "title": "Methods and API contracts",
+    "phase": "Language foundations",
+    "path": "days/day-006-methods-and-api-contracts",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 7,
+    "title": "Arrays and mutation",
+    "phase": "Language foundations",
+    "path": "days/day-007-arrays-and-mutation",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 8,
+    "title": "Collections and uniqueness",
+    "phase": "Language foundations",
+    "path": "days/day-008-collections-and-uniqueness",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 9,
+    "title": "Nullability and optional values",
+    "phase": "Language foundations",
+    "path": "days/day-009-nullability-and-optional-values",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 10,
+    "title": "Checkpoint: robust input pipeline",
+    "phase": "Language foundations",
+    "path": "days/day-010-checkpoint-robust-input-pipeline",
+    "checkpoint": true,
+    "suppliedTests": 3
+  },
+  {
+    "day": 11,
+    "title": "Classes and encapsulation",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-011-classes-and-encapsulation",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 12,
+    "title": "Records and value equality",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-012-records-and-value-equality",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 13,
+    "title": "Interfaces and substitutability",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-013-interfaces-and-substitutability",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 14,
+    "title": "Composition and dependency inversion",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-014-composition-and-dependency-inversion",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 15,
+    "title": "Exceptions and failure boundaries",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-015-exceptions-and-failure-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 16,
+    "title": "Generics and type safety",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-016-generics-and-type-safety",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 17,
+    "title": "Delegates and closures",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-017-delegates-and-closures",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 18,
+    "title": "Pattern matching",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-018-pattern-matching",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 19,
+    "title": "Dates, times and clocks",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-019-dates-times-and-clocks",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 20,
+    "title": "Checkpoint: domain model",
+    "phase": "Domain modeling and type design",
+    "path": "days/day-020-checkpoint-domain-model",
+    "checkpoint": true,
+    "suppliedTests": 3
+  },
+  {
+    "day": 21,
+    "title": "LINQ filtering and projection",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-021-linq-filtering-and-projection",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 22,
+    "title": "LINQ grouping and aggregation",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-022-linq-grouping-and-aggregation",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 23,
+    "title": "Deferred execution and enumeration",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-023-deferred-execution-and-enumeration",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 24,
+    "title": "Dictionaries and lookup complexity",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-024-dictionaries-and-lookup-complexity",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 25,
+    "title": "Sets and sequence algorithms",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-025-sets-and-sequence-algorithms",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 26,
+    "title": "Immutability and persistent data",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-026-immutability-and-persistent-data",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 27,
+    "title": "JSON and serialization boundaries",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-027-json-and-serialization-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 28,
+    "title": "File IO and resource ownership",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-028-file-io-and-resource-ownership",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 29,
+    "title": "Regular expressions and parsing",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-029-regular-expressions-and-parsing",
+    "checkpoint": false,
+    "suppliedTests": 6
+  },
+  {
+    "day": 30,
+    "title": "Checkpoint: reporting pipeline",
+    "phase": "Data processing and boundaries",
+    "path": "days/day-030-checkpoint-reporting-pipeline",
+    "checkpoint": true,
+    "suppliedTests": 3
+  },
+  {
+    "day": 31,
+    "title": "Modern construction and required members",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-031-modern-construction-and-required-members",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 32,
+    "title": "C# 14 field-backed properties",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-032-c-14-field-backed-properties",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 33,
+    "title": "C# 14 extension members",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-033-c-14-extension-members",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 34,
+    "title": "C# 14 null-conditional assignment",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-034-c-14-null-conditional-assignment",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 35,
+    "title": "Spans and allocation-conscious APIs",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-035-spans-and-allocation-conscious-apis",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 36,
+    "title": "Generic math and numeric algorithms",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-036-generic-math-and-numeric-algorithms",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 37,
+    "title": "Equality, hashing and comparison",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-037-equality-hashing-and-comparison",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 38,
+    "title": "Reflection and metadata",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-038-reflection-and-metadata",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 39,
+    "title": "Source generation and build-time tools",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-039-source-generation-and-build-time-tools",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 40,
+    "title": "Checkpoint: modern C# library",
+    "phase": "Modern C# and library engineering",
+    "path": "days/day-040-checkpoint-modern-c-library",
+    "checkpoint": true,
+    "suppliedTests": 3
+  },
+  {
+    "day": 41,
+    "title": "Task-based asynchronous programming",
+    "phase": "Async and concurrency",
+    "path": "days/day-041-task-based-asynchronous-programming",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 42,
+    "title": "Cancellation and cooperative work",
+    "phase": "Async and concurrency",
+    "path": "days/day-042-cancellation-and-cooperative-work",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 43,
+    "title": "Async streams and backpressure",
+    "phase": "Async and concurrency",
+    "path": "days/day-043-async-streams-and-backpressure",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 44,
+    "title": "Parallel work and ordering",
+    "phase": "Async and concurrency",
+    "path": "days/day-044-parallel-work-and-ordering",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 45,
+    "title": "Synchronization and atomic operations",
+    "phase": "Async and concurrency",
+    "path": "days/day-045-synchronization-and-atomic-operations",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 46,
+    "title": "Channels and bounded pipelines",
+    "phase": "Async and concurrency",
+    "path": "days/day-046-channels-and-bounded-pipelines",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 47,
+    "title": "Retry and transient failures",
+    "phase": "Async and concurrency",
+    "path": "days/day-047-retry-and-transient-failures",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 48,
+    "title": "Timeouts and deterministic time",
+    "phase": "Async and concurrency",
+    "path": "days/day-048-timeouts-and-deterministic-time",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 49,
+    "title": "Async disposal and ownership",
+    "phase": "Async and concurrency",
+    "path": "days/day-049-async-disposal-and-ownership",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 50,
+    "title": "Checkpoint: concurrent importer",
+    "phase": "Async and concurrency",
+    "path": "days/day-050-checkpoint-concurrent-importer",
+    "checkpoint": true,
+    "suppliedTests": 3
+  },
+  {
+    "day": 51,
+    "title": "Dependency injection and lifetimes",
+    "phase": "Production HTTP services",
+    "path": "days/day-051-dependency-injection-and-lifetimes",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 52,
+    "title": "Configuration and options validation",
+    "phase": "Production HTTP services",
+    "path": "days/day-052-configuration-and-options-validation",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 53,
+    "title": "Structured logging and redaction",
+    "phase": "Production HTTP services",
+    "path": "days/day-053-structured-logging-and-redaction",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 54,
+    "title": "HTTP clients and protocol semantics",
+    "phase": "Production HTTP services",
+    "path": "days/day-054-http-clients-and-protocol-semantics",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 55,
+    "title": "Minimal APIs and typed results",
+    "phase": "Production HTTP services",
+    "path": "days/day-055-minimal-apis-and-typed-results",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 56,
+    "title": "Middleware and exception boundaries",
+    "phase": "Production HTTP services",
+    "path": "days/day-056-middleware-and-exception-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 57,
+    "title": "Authentication and authorization",
+    "phase": "Production HTTP services",
+    "path": "days/day-057-authentication-and-authorization",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 58,
+    "title": "Pagination and query boundaries",
+    "phase": "Production HTTP services",
+    "path": "days/day-058-pagination-and-query-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 59,
+    "title": "Caching and expiry",
+    "phase": "Production HTTP services",
+    "path": "days/day-059-caching-and-expiry",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 60,
+    "title": "Checkpoint: secured HTTP service",
+    "phase": "Production HTTP services",
+    "path": "days/day-060-checkpoint-secured-http-service",
+    "checkpoint": true,
+    "suppliedTests": 4
+  },
+  {
+    "day": 61,
+    "title": "Relational modeling and constraints",
+    "phase": "Persistence and correctness",
+    "path": "days/day-061-relational-modeling-and-constraints",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 62,
+    "title": "EF Core 10 change tracking",
+    "phase": "Persistence and correctness",
+    "path": "days/day-062-ef-core-10-change-tracking",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 63,
+    "title": "Query translation and N+1 avoidance",
+    "phase": "Persistence and correctness",
+    "path": "days/day-063-query-translation-and-n-1-avoidance",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 64,
+    "title": "Transactions and atomic effects",
+    "phase": "Persistence and correctness",
+    "path": "days/day-064-transactions-and-atomic-effects",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 65,
+    "title": "Optimistic concurrency",
+    "phase": "Persistence and correctness",
+    "path": "days/day-065-optimistic-concurrency",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 66,
+    "title": "Migrations and compatible rollout",
+    "phase": "Persistence and correctness",
+    "path": "days/day-066-migrations-and-compatible-rollout",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 67,
+    "title": "Idempotency and duplicate commands",
+    "phase": "Persistence and correctness",
+    "path": "days/day-067-idempotency-and-duplicate-commands",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 68,
+    "title": "Outbox and reliable publication",
+    "phase": "Persistence and correctness",
+    "path": "days/day-068-outbox-and-reliable-publication",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 69,
+    "title": "Database integration testing",
+    "phase": "Persistence and correctness",
+    "path": "days/day-069-database-integration-testing",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 70,
+    "title": "Checkpoint: durable service",
+    "phase": "Persistence and correctness",
+    "path": "days/day-070-checkpoint-durable-service",
+    "checkpoint": true,
+    "suppliedTests": 4
+  },
+  {
+    "day": 71,
+    "title": "Allocations and GC fundamentals",
+    "phase": "Performance, security and operations",
+    "path": "days/day-071-allocations-and-gc-fundamentals",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 72,
+    "title": "Benchmarking and experimental design",
+    "phase": "Performance, security and operations",
+    "path": "days/day-072-benchmarking-and-experimental-design",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 73,
+    "title": "Pooling and buffer ownership",
+    "phase": "Performance, security and operations",
+    "path": "days/day-073-pooling-and-buffer-ownership",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 74,
+    "title": "High-performance text and binary IO",
+    "phase": "Performance, security and operations",
+    "path": "days/day-074-high-performance-text-and-binary-io",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 75,
+    "title": "Native AOT and trimming",
+    "phase": "Performance, security and operations",
+    "path": "days/day-075-native-aot-and-trimming",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 76,
+    "title": "OpenTelemetry and correlation",
+    "phase": "Performance, security and operations",
+    "path": "days/day-076-opentelemetry-and-correlation",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 77,
+    "title": "Health checks and service objectives",
+    "phase": "Performance, security and operations",
+    "path": "days/day-077-health-checks-and-service-objectives",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 78,
+    "title": "Rate limiting and admission control",
+    "phase": "Performance, security and operations",
+    "path": "days/day-078-rate-limiting-and-admission-control",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 79,
+    "title": "Application security boundaries",
+    "phase": "Performance, security and operations",
+    "path": "days/day-079-application-security-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 80,
+    "title": "Checkpoint: measured production service",
+    "phase": "Performance, security and operations",
+    "path": "days/day-080-checkpoint-measured-production-service",
+    "checkpoint": true,
+    "suppliedTests": 4
+  },
+  {
+    "day": 81,
+    "title": "Architecture and dependency direction",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-081-architecture-and-dependency-direction",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 82,
+    "title": "DDD aggregates and consistency boundaries",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-082-ddd-aggregates-and-consistency-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 83,
+    "title": "CQRS and read-model projections",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-083-cqrs-and-read-model-projections",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 84,
+    "title": "Modular monoliths and boundaries",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-084-modular-monoliths-and-boundaries",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 85,
+    "title": "Message contracts and evolution",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-085-message-contracts-and-evolution",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 86,
+    "title": "Sagas and compensation",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-086-sagas-and-compensation",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 87,
+    "title": "At-least-once delivery and inboxes",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-087-at-least-once-delivery-and-inboxes",
+    "checkpoint": false,
+    "suppliedTests": 2
+  },
+  {
+    "day": 88,
+    "title": "Partitioning and ordering",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-088-partitioning-and-ordering",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 89,
+    "title": "Circuit breakers and failure budgets",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-089-circuit-breakers-and-failure-budgets",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 90,
+    "title": "Checkpoint: distributed workflow",
+    "phase": "Architecture and distributed workflows",
+    "path": "days/day-090-checkpoint-distributed-workflow",
+    "checkpoint": true,
+    "suppliedTests": 4
+  },
+  {
+    "day": 91,
+    "title": "Deployment and shutdown engineering",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-091-deployment-and-shutdown-engineering",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 92,
+    "title": "Architecture decisions and tradeoffs",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-092-architecture-decisions-and-tradeoffs",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 93,
+    "title": "Multi-tenancy and isolation strategies",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-093-multi-tenancy-and-isolation-strategies",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 94,
+    "title": "Resilience and degraded operation",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-094-resilience-and-degraded-operation",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 95,
+    "title": "Compatibility and versioned rollout",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-095-compatibility-and-versioned-rollout",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 96,
+    "title": "Domain evolution and refactoring",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-096-domain-evolution-and-refactoring",
+    "checkpoint": false,
+    "suppliedTests": 4
+  },
+  {
+    "day": 97,
+    "title": "Architecture fitness functions",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-097-architecture-fitness-functions",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 98,
+    "title": "Backup, recovery and disaster exercises",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-098-backup-recovery-and-disaster-exercises",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 99,
+    "title": "Release review and operational readiness",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-099-release-review-and-operational-readiness",
+    "checkpoint": false,
+    "suppliedTests": 3
+  },
+  {
+    "day": 100,
+    "title": "Capstone: architecture defense",
+    "phase": "Delivery and architecture defense",
+    "path": "days/day-100-capstone-architecture-defense",
+    "checkpoint": true,
+    "suppliedTests": 3
+  }
+]
