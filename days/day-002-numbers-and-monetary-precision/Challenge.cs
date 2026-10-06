@@ -4,5 +4,5 @@ namespace Days.Day002;
 public static class Challenge
 {
     public static decimal LineTotal(int quantity, decimal price)
-        => throw new NotImplementedException("Attempt Day 002 before requesting a solution.");
+        => quantity < 0 ? throw new ArgumentOutOfRangeException(nameof(quantity)) : Math.Round(quantity * price, 2);
 }
