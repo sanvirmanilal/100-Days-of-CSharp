@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
 namespace Days.Day081;
 
 // Learning example: Architecture and dependency direction. Predict the output before running.

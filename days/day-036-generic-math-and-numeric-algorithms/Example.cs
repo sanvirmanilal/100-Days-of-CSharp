@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
 namespace Days.Day036;
 
 // Learning example: Generic math and numeric algorithms. Predict the output before running.

@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
 namespace Days.Day077;
 
 // Learning example: Health checks and service objectives. Predict the output before running.

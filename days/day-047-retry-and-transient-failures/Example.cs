@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
 namespace Days.Day047;
 
 // Learning example: Retry and transient failures. Predict the output before running.

@@ -1,7 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
 namespace Days.Day097;
 
 // Learning example: Architecture fitness functions. Predict the output before running.
