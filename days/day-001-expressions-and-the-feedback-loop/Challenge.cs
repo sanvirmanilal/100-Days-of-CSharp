@@ -4,5 +4,5 @@ namespace Days.Day001;
 public static class Challenge
 {
     public static int Add(int left, int right)
-        => throw new NotImplementedException("Attempt Day 001 before requesting a solution.");
+        => checked(left + right);
 }
